@@ -1,5 +1,6 @@
 :root {
-   --primary-text: #331904;
+  --primary-text: #331904;
+  interpolate-size: allow-keywords;
 }
 
 * {
@@ -21,9 +22,12 @@ h1 {
   padding: 1rem;
 }
 
+/* Article Styles */
+
 article {
   margin: 1rem;
   padding: 1rem;
+  overflow: hidden;
   border: 1px solid gray;
   border-radius: 0.5rem;
 }
@@ -32,9 +36,14 @@ article h2 {
   cursor: pointer;
 }
 
+/* Section Styles */
+
 article section {
   margin-top: 0.5rem;
   margin-left: 1rem;
+  overflow: hidden;
+  height: auto;
+  transition: all 0.5s;
 }
 
 article section h3 {
@@ -44,9 +53,31 @@ article section h3 {
 
 article section p {
   margin-bottom: 0.5rem;
+  overflow: hidden;
+  height: auto;
+  transition: all 0.5s;
+}
+
+/* Dynamic Article/Section Styles */
+
+article h2::after,
+section h3::after {
+  content: "<";
+  float: right;
+}
+
+article.hidden h2::after,
+section.hidden h3::after {
+  content: "v";
+  float: right;
 }
 
 article.hidden h2 ~ section,
 section.hidden h3 ~ p {
-  display: none;
+  /* shrink article or section contents */
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  height: 0;
 }
