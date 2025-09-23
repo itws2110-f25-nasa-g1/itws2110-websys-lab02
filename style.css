@@ -1,3 +1,7 @@
+:root {
+   --primary-text: #331904;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -22,4 +26,17 @@ article section h3 {
 
 article section p {
   margin-bottom: 0.5rem;
+}
+
+body {
+  margin: 0 auto;
+  background: url("resources/images/parchment.jpg");
+  max-width: 70%;
+  color: var(--primary-text);
+}
+
+h1 {
+  text-align: center;
+  margin-top: 2rem;
+  padding: 1rem;
 }
