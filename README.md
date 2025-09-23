@@ -2,4 +2,9 @@
 
 Constitution Web App
 
-https://constitution.congress.gov/browse/essay/amdt2-7/ALDE_00000093/
+https://constitution.congress.gov/constitution/
+
+Notes:
+
+- Nick
+  - 
