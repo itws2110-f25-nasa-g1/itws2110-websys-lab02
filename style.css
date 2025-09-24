@@ -104,7 +104,8 @@ article.hidden .dropdown {
   font-size: 1.3rem;
   border: none;
   border-radius: 0.5rem;
-  z-index: 0;
+  position: relative;
+  z-index: 2;
 }
 
 /* Dropdown Content (Hidden by Default) */
@@ -115,7 +116,10 @@ article.hidden .dropdown {
   padding: 0.5rem;
   min-width: max-content;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 2;
+  position: relative;
+  left: 1.7em;
+  top: -1.5rem;
+  z-index: 1000;
 }
 
 /* Show the dropdown menu on hover */
