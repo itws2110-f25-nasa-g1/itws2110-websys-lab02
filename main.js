@@ -6,7 +6,7 @@ articles.forEach(article => {
   header.addEventListener("click", () => {
     article.classList.toggle("hidden");
   });
-  
+
   let sections = article.querySelectorAll("section");
   sections.forEach(section => {
     section_header = section.querySelector("h3");
