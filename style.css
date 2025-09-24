@@ -90,6 +90,11 @@ section.hidden h3 ~ p {
   position: absolute;
   left: 0.25rem;
   display: inline-block;
+  transition: opacity 0.5s;
+}
+
+article.hidden .dropdown {
+  opacity: 0;
 }
 
 .dropbtn {
