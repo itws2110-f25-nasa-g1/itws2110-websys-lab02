@@ -21,3 +21,6 @@ Notes:
 - Keira
   - Fixed Article III having Article II content
   - Added info buttons and framework for hoverable menus (https://www.w3schools.com/howto/howto_css_dropdown.asp)
+- Jacob
+  - Added Article II
+  - Added all annotations to each section of all articles and the first 10 amendments
