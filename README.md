@@ -20,4 +20,4 @@ Notes:
   - Formatted individual sections of added amendments with paragraphs as shown in Constitution
 - Keira
   - Fixed Article III having Article II content
-  - Added info buttons and framework for hoverable menus ([https://www.w3schools.com/howto/howto_css_dropdown.asp])
+  - Added info buttons and framework for hoverable menus (https://www.w3schools.com/howto/howto_css_dropdown.asp)
