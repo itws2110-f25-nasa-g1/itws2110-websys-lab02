@@ -12,3 +12,6 @@ Notes:
   - Used JS and CSS to allow for toggling articles or sections by clicking their headers
     - took inspiration from a previous personal project of mine
     - https://github.com/NicholasCiuica/RPS2D
+- Carli
+  - Added Article IV and Amendments 11-27
+  - Formatted individual sections of added amendments with paragraphs as shown in Constitution
